@@ -21,7 +21,7 @@ tns plugin add nativescript-hide-action-bar
 Once the plugin is added to your project, you need to add the `HideActionBarModule` to your imports array in your desired feature module or the `SharedModule`:
 
 ```javascript
-    import { HideActionBarModule } from '@microexcel-csd/nativescript-hide-action-bar';
+    import { HideActionBarModule } from 'nativescript-hide-action-bar';
 
     @NgModule({
         // ...
