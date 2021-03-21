@@ -1,0 +1,10 @@
+{
+  "name": "@microexcel-csd/nativescript-hide-action-bar",
+  "version": "2.0.3",
+  "peerDependencies": {
+    "@angular/common": "^9.0.7",
+    "@angular/core": "^9.0.7",
+    "@nativescript/core": "^6.5.12",
+    "tslib": "^1.10.0"
+  }
+}
