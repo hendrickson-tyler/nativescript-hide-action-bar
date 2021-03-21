@@ -2,7 +2,6 @@ import { Directive } from '@angular/core';
 import { Page } from '@nativescript/core';
 
 @Directive({
-  // tslint:disable-next-line: directive-selector
   selector: '[hideActionBar]'
 })
 export class HideActionBarDirective {
