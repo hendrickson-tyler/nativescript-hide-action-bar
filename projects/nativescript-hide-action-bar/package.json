@@ -1,6 +1,11 @@
 {
   "name": "nativescript-hide-action-bar",
-  "version": "0.0.2",
+  "version": "0.0.3",
+  "license": "MIT",
+  "author": {
+    "name": "Tyler Hendrickson",
+    "url": "https://tylerhendrickson.me"
+  },
   "nativescript": {
     "platforms": {
       "android": "7.0.1",
