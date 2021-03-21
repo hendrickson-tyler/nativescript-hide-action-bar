@@ -22,6 +22,6 @@ jobs:
       uses: JS-DevTools/npm-publish@v1
       with:
         token: ${{ secrets.NPM_AUTH_TOKEN }}
-        package: dist/nativescript-hide-action-bar
+        package: ./dist/nativescript-hide-action-bar
 
 
