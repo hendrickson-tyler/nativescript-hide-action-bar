@@ -30,7 +30,7 @@
           }
         },
         "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
+          "builder": "@angular-eslint/builder:lint",
           "options": {
             "tsConfig": [
               "projects/nativescript-hide-action-bar/tsconfig.lib.json",
