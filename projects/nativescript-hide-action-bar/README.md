@@ -1,6 +1,6 @@
 # NativeScript Hide Action Bar
 
-![Short demo of NativeScript Hide Action Bar in action](https://gitlab.com/knowlysis/external/nativescript-hide-action-bar/-/raw/master/images/demo.gif)
+<!-- ![Short demo of NativeScript Hide Action Bar in action](https://gitlab.com/knowlysis/external/nativescript-hide-action-bar/-/raw/master/images/demo.gif) -->
 
 ## Description
 
@@ -13,7 +13,7 @@ This is especially useful for NativeScript [code sharing](https://docs.nativescr
 From the root folder of your project, execute the following command:
 
 ```javascript
-tns plugin add nativescript-hide-action-bar
+ns plugin add nativescript-hide-action-bar
 ```
 
 ## Usage

@@ -1,13 +1,20 @@
 {
   "name": "nativescript-hide-action-bar",
+  "author": {
+    "name": "Tyler Hendrickson",
+    "url": "https://tyler.hendrickson.me"
+  },
   "version": "0.0.1",
+  "license": "MIT",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build-prod": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "deploy": "cd dist/nativescript-hide-action-bar && npm publish"
   },
   "private": true,
   "dependencies": {
