@@ -2,7 +2,6 @@ name: Publish
 
 on:
   push:
-    # paths-ignore: [.vscode/**, .github/**]
     branches: [ main ]
 
 jobs:
@@ -16,6 +15,12 @@ jobs:
     - name: Installing dependencies
       run: npm ci
 
-    - name: Building Angular library
-      run: npm run build
+    - name: Building Angular library for production
+      run: npm run build-prod
+
+    - name: Publishing package to NPM
+      uses: JS-DevTools/npm-publish@v1
+      with:
+        token: ${{ secrets.NPM_AUTH_TOKEN }}
+
 
