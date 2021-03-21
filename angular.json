@@ -1,0 +1,47 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "nativescript-hide-action-bar": {
+      "projectType": "library",
+      "root": "projects/nativescript-hide-action-bar",
+      "sourceRoot": "projects/nativescript-hide-action-bar/src",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "tsConfig": "projects/nativescript-hide-action-bar/tsconfig.lib.json",
+            "project": "projects/nativescript-hide-action-bar/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/nativescript-hide-action-bar/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/nativescript-hide-action-bar/src/test.ts",
+            "tsConfig": "projects/nativescript-hide-action-bar/tsconfig.spec.json",
+            "karmaConfig": "projects/nativescript-hide-action-bar/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "projects/nativescript-hide-action-bar/src/**/*.ts",
+              "projects/nativescript-hide-action-bar/src/**/*.html"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "cli": {
+    "analytics": false
+  },
+  "defaultProject": "nativescript-hide-action-bar"
+}

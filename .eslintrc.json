@@ -1,0 +1,35 @@
+{
+  "root": true,
+  "overrides": [
+    {
+      "files": [
+        "*.ts"
+      ],
+      "parserOptions": {
+        "project": [
+          "tsconfig.json"
+        ],
+        "createDefaultProgram": true
+      },
+      "extends": [
+        "plugin:@typescript-eslint/recommended",
+        "plugin:jsdoc/recommended"
+      ],
+      "plugins": [],
+      "rules": {
+        "jsdoc/require-returns-type": "off",
+        "jsdoc/require-param-type": "off",
+        "jsdoc/require-property-type": "off"
+      }
+    },
+    {
+      "files": [
+        "*.html"
+      ],
+      "extends": [
+        "plugin:@angular-eslint/template/recommended"
+      ],
+      "rules": {}
+    }
+  ]
+}
