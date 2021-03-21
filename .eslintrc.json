@@ -1,8 +1,5 @@
 {
   "root": true,
-  "ignorePatterns": [
-    "projects/**/*"
-  ],
   "overrides": [
     {
       "files": [
@@ -19,7 +16,11 @@
         "plugin:jsdoc/recommended"
       ],
       "plugins": [],
-      "rules": {}
+      "rules": {
+        "jsdoc/require-returns-type": "off",
+        "jsdoc/require-param-type": "off",
+        "jsdoc/require-property-type": "off"
+      }
     },
     {
       "files": [

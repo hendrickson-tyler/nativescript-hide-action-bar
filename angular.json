@@ -7,10 +7,9 @@
       "projectType": "library",
       "root": "projects/nativescript-hide-action-bar",
       "sourceRoot": "projects/nativescript-hide-action-bar/src",
-      "prefix": "csd",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-ng-packagr:build",
+          "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
             "tsConfig": "projects/nativescript-hide-action-bar/tsconfig.lib.json",
             "project": "projects/nativescript-hide-action-bar/ng-package.json"
@@ -32,12 +31,9 @@
         "lint": {
           "builder": "@angular-eslint/builder:lint",
           "options": {
-            "tsConfig": [
-              "projects/nativescript-hide-action-bar/tsconfig.lib.json",
-              "projects/nativescript-hide-action-bar/tsconfig.spec.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
+            "lintFilePatterns": [
+              "projects/nativescript-hide-action-bar/src/**/*.ts",
+              "projects/nativescript-hide-action-bar/src/**/*.html"
             ]
           }
         }
