@@ -4,8 +4,14 @@
     "name": "Tyler Hendrickson",
     "url": "https://tyler.hendrickson.me"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
+  "nativescript": {
+    "platforms": {
+      "android": "7.0.1",
+      "ios": "7.2.0"
+    }
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
