@@ -1,5 +1,10 @@
 # NativeScript Hide Action Bar
 
+> **Warning**
+> This plugin is deprecated and will not be updated. You probably shouldn't use it anymore.
+>
+> This simple directive was really only useful for the old NativeScript Angular code sharing method. Code sharing options have [changed drastically](https://docs.nativescript.org/code-sharing/index.html#code-sharing), so this plugin doesn't have much of a purpose beyond legacy code.
+
 <!-- ![Short demo of NativeScript Hide Action Bar in action](https://gitlab.com/knowlysis/external/nativescript-hide-action-bar/-/raw/master/images/demo.gif) -->
 
 ## Description
